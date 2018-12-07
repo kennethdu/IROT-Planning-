@@ -7,7 +7,7 @@
 
 ## Description
 
-A webiste for Introspective Rationale: The Odyssey of 
+A website for Introspective Rationale: The Odyssey of 
 Theodicy by Mitchell G. Thompson 
 
 Links: 
