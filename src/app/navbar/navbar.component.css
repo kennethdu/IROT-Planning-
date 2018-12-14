@@ -1,4 +1,8 @@
 a{
   float: right;
   margin-right: 2%;
+} 
+
+#logo{
+  float: left;
 }
