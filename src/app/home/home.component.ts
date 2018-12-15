@@ -19,8 +19,9 @@ import { trigger, state, transition, style, animate } from '@angular/animations'
   ]
 })
 export class HomeComponent implements OnInit {
-
-  constructor() { }
+  
+  constructor() {
+   }
 
   ngOnInit() {
   }

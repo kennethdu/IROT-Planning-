@@ -1,8 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background: black;
+    /* background: black; */
     background-image: url("./assets/img/BGPhoto.jpg");
     background-repeat: no-repeat;
-    /* background-position-y: 125px;  */
+    /* background-position-y: top;  */
+    /* background-position-x: right 32px; */
     /* background-attachment: fixed; */
+    background-size: auto;
 }

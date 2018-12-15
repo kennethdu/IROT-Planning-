@@ -1,8 +1,22 @@
 .center{
   text-align: center;
-  margin-top: 2%;
+  padding-top: 4%;
 }
 
 ul{
   list-style-type: none;
 }
+
+/* .title{
+  font-weight: bold;
+} */
+
+#bookQuote{
+  width: 80%;
+  margin-left: 10%;
+} 
+
+#quotes{
+  font-size: 150%;
+}
+
