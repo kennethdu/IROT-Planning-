@@ -2,14 +2,18 @@
   margin-top: 10%;
   margin-left: 10%;
 }
-
-#bookLinks {
+#bookLinks{
   padding-top: 5%;
   margin-left: 30%;
 }
 
-img { 
+.bookIMG {
+  /* width: ; */
+}
+
+.bookPhotos { 
   width: 80%;
   margin-left: 4%;
   margin-top: 5%;
 }
+
