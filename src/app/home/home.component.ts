@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { trigger, state, transition, style, animate } from '@angular/animations';
+import { trigger, transition, style, animate } from '@angular/animations';
 
 @Component({
   selector: 'app-home',
@@ -24,10 +24,6 @@ export class HomeComponent implements OnInit {
 
   }
 
-  // message: string = "";
-
-  // currentMessage: string = `<li @fade id="quotes"> ${this.message} </li>`;
-
   ngOnInit() {
     let messages = ["Introspection", "Inoculates", "Ignorance"];
     let index = 0;
@@ -38,20 +34,6 @@ export class HomeComponent implements OnInit {
       document.getElementById('quotes').textContent = messages[index % 3];
     }, 1500);
 
-    // setInterval(() => {
-    //   index++;
-    //   this.message = messages[index % 3];
-    // }, 1000);
   }
-
-  // intervalWordArrayMaker(messageArray) {
-  //   let index = 0;
-  //   setInterval(() => {
-  //     index++;
-  //     document.getElementById('quotes').textContent = messageArray[index % 3];
-  //   }, 1000);
-  // }
-
-
 
 }
