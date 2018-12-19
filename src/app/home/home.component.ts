@@ -32,6 +32,7 @@ export class HomeComponent implements OnInit {
     let messages = ["Introspection", "Inoculates", "Ignorance"];
     let index = 0;
 
+
     setInterval(() => {
       index++;
       document.getElementById('quotes').textContent = messages[index % 3];
