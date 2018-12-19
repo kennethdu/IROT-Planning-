@@ -3,23 +3,23 @@ import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { routing } from './app.routing';
-import { LinksComponent } from './links/links.component';
+import { BioComponent } from './bio/bio.component';
+import { ArticlesComponent } from './articles/articles.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ContactComponent,
     AboutComponent,
     FooterComponent,
     NavbarComponent,
-    LinksComponent
+    BioComponent,
+    ArticlesComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,5 @@
-import { ContactComponent } from './contact/contact.component';
+import { ArticlesComponent } from './articles/articles.component';
+import { BioComponent } from './bio/bio.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { ModuleWithProviders } from '@angular/core';
@@ -14,8 +15,12 @@ const appRoutes: Routes = [
     component: AboutComponent
   },
   {
-    path: 'contact',
-    component: ContactComponent
+    path: 'bio',
+    component: BioComponent
+  },
+  {
+    path: 'articles',
+    component: ArticlesComponent
   }
 ];
 

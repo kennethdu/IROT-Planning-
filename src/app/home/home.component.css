@@ -9,9 +9,10 @@ ul{
   margin-bottom: 5%;
 }
 
-/* .title{
-  font-weight: bold;
-} */
+#title {
+  margin-top: 5%;
+}
+
 
 #bookQuote{
   width: 80%;
@@ -22,5 +23,18 @@ ul{
 
 #quotes{
   font-size: 150%;
+  /* color: blue; */
+  /* animation: fadeIn 1s; */
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+ 
 

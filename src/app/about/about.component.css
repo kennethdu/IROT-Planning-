@@ -1,15 +1,19 @@
-#synopsis{
+/* #synopsis{
   margin-top: 10%;
   margin-left: 10%;
-}
+  width: 150%;
+} */
 #bookLinks{
   padding-top: 5%;
   margin-left: 30%;
 }
 
 .bookPhotos { 
-  width: 80%;
+  width: 70%;
   margin-left: 4%;
   margin-top: 5%;
 }
 
+#contents{
+  /* width: 400px; */
+}
