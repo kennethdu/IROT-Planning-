@@ -13,7 +13,7 @@ body {
 }
 
 
-button{
+.button{
   background-color: black;
   color: white;
   border-radius: 8px;
@@ -21,16 +21,16 @@ button{
   cursor: pointer;
 }
 
-button:focus {
+.button:focus {
   outline:0;
 }
 
-button:hover {
+.button:hover {
   background-color: white;
   color: black;
 }
 
-button:active {
+.button:active {
   background-color: black;
   color: white;
   box-shadow: 0 5px #666;

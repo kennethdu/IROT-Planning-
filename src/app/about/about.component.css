@@ -17,3 +17,14 @@
 /* #contents{
   width: 400px;
 } */
+
+#amazon{
+  background-image: url("../../assets/img/amazon.png");
+  width: cover;
+  height: 100px;
+}
+
+button{
+  width: 150px;
+  height: 150px;
+}
