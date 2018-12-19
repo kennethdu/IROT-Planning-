@@ -24,23 +24,23 @@ export class HomeComponent implements OnInit {
 
   }
 
-  message: string = "";
+  // message: string = "";
 
-  currentMessage: string = `<li @fade id="quotes"> ${this.message} </li>`;
+  // currentMessage: string = `<li @fade id="quotes"> ${this.message} </li>`;
 
   ngOnInit() {
     let messages = ["Introspection", "Inoculates", "Ignorance"];
     let index = 0;
 
-    // setInterval(() => {
-    //   index++;
-    //   document.getElementById('quotes').textContent = messages[index % 3];
-    // }, 1500);
-
     setInterval(() => {
       index++;
-      this.message = messages[index % 3];
-    }, 1000);
+      document.getElementById('quotes').textContent = messages[index % 3];
+    }, 1500);
+
+    // setInterval(() => {
+    //   index++;
+    //   this.message = messages[index % 3];
+    // }, 1000);
   }
 
   // intervalWordArrayMaker(messageArray) {
